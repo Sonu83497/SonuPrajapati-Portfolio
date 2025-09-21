@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sonu Prajapati — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta
+      name="description"
+      content="Portfolio of Sonu Prajapati — Frontend / Full-stack projects, skills, contact."
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="site-header">
+      <nav class="nav container">
+        <a class="logo" href="#hero">Sonu Prajapati</a>
+        <button
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+        >
+          ☰
+        </button>
+        <ul class="nav-list" id="nav-list">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li>
+            <button
+              id="theme-toggle"
+              class="btn icon-btn"
+              aria-label="Toggle theme"
+            >
+              🌙
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <main>
+      <section id="hero" class="hero section container">
+        <div class="hero-left reveal">
+          <h1>Hi, I'm <span class="name">Sonu Prajapati</span></h1>
+          <p class="tagline">
+            Aspiring B.Tech CSE • Full-stack & Python Developer
+          </p>
+          <p class="typing">
+            <span id="typed"></span><span class="cursor">|</span>
+          </p>
+
+          <div class="hero-actions">
+            <a
+              href="assets/SonuResume.pdf"
+              download="Sonu_Prajapati_Resume.pdf"
+              class="btn primary"
+              >Download Resume</a
+            >
+            <a href="#contact" class="btn outline">Contact Me</a>
+          </div>
+
+          <div class="socials">
+            <a
+              href="https://linkedin.com/in/sonu-prajapati-a75306301"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/Sonu83497"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="profile-card">
+            <div class="avatar">
+              <img src="assets/Sonu.jpg" alt="Sonu Prajapati" />
+            </div>
+            <div class="profile-info">
+              <h3>Sonu Prajapati</h3>
+              <p>Frontend Developer • MERN enthusiast • Intern @ TULIP</p>
+              <ul class="contact-mini">
+                <li>📞 +91 8349737671</li>
+                <li>
+                  ✉️
+                  <a href="mailto:Sonuprajapati83497@gmail.com"
+                    >Sonuprajapati83497@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="about section container">
+        <h2 class="section-title reveal">About</h2>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3>Introduction</h3>
+            <p>
+              I'm a B.Tech CSE student at Vikrant Institute (2022–2026). I enjoy
+              building web apps with HTML, CSS, JavaScript and exploring backend
+              & cloud tools.
+            </p>
+            <h4>Work Experience</h4>
+            <p>
+              Intern at TULIP (May 2023 – July 2023) — Smart city & data-driven
+              solutions.
+            </p>
+          </div>
+
+          <div class="about-card reveal">
+            <h3>Skills</h3>
+            <ul class="skills">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Tailwind</li>
+              <li>C++</li>
+              <li>Python</li>
+              <li>MongoDB</li>
+            </ul>
+            <h4>Tools & Platforms</h4>
+            <ul class="tools">
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>AWS</li>
+              <li>Linux</li>
+              <li>Cisco Packet Tracer</li>
+            </ul>
+          </div>
+
+          <div class="about-card timeline reveal">
+            <h3>Education</h3>
+            <ol class="edu-list">
+              <li>
+                <strong>B.Tech CSE</strong><br />
+                Vikrant Institute of Technology & Management, Gwalior
+                (2022–2026)
+              </li>
+              <li>
+                <strong>12th Grade</strong> — Janta Higher Secondary School,
+                Joura (2021–2022) • 64.8%
+              </li>
+              <li>
+                <strong>10th Grade</strong> — Govt. High School, Chachiha
+                (2019–2020) • 80.75%
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects section container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="projects-grid">
+          <!-- Card 1 -->
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/library.jpg"
+                alt="Library Management System"
+                class="project-thumb"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Library Management System with AI Chatbot</h3>
+              <p>
+                A web-based library system with an integrated AI chatbot for
+                assistance.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://sonu83497.github.io/Library-Management-System-With-AI-Chatbot/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small"
+                  >Live</a
+                >
+                <a
+                  href="https://github.com/Sonu83497"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small outline"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/number.jpg"
+                alt="Number Guess Game"
+                class="project-thumb"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Number Guess Game (Python CLI)</h3>
+              <p>
+                A command-line number guessing game built with Python — includes
+                scoring and retries.
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://github.com/Sonu83497/Number-Guess-Game.git"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small outline"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/portfolio.jpg"
+                alt="Portfolio Website"
+                class="project-thumb"
+              />
+            </div>
+            <div class="project-body">
+              <h3>Portfolio Website</h3>
+              <p>
+                This very portfolio — responsive, accessible and modern UI
+                (HTML/CSS/JS).
+              </p>
+              <div class="project-links">
+                <a
+                  href="https://sonu83497.github.io/PortFolio-Website/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small"
+                  >Live</a
+                >
+                <a
+                  href="https://github.com/Sonu83497"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small outline"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="project-card reveal">
+            <div class="project-media">
+              <img
+                src="assets/TODO.jpg"
+                alt="TO-DO Web Application"
+                class="project-thumb"
+              />
+            </div>
+            <div class="project-body">
+              <h3>TO-DO Web Application</h3>
+              <p>
+                To-Do App with subtasks, progress tracking, and import/export.
+              </p>
+              <div class="project-links">
+                <a
+                  href=" https://sonu83497.github.io/To-Do-Web-Application/"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small"
+                  >Live</a
+                >
+                <a
+                  href="https://github.com/Sonu83497/To-Do-Web-Application"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn small outline"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- ACHIEVEMENTS -->
+      <section id="achievements" class="achievements section container">
+        <h2 class="section-title reveal">Achievements & Certifications</h2>
+        <div class="achievements-grid">
+          <div class="ach-card reveal">
+            <h4>National Winner — INSPIRE Award MANAK</h4>
+            <p>2018–19</p>
+          </div>
+          <div class="ach-card reveal">
+            <h4>2nd Place — MP Tourism Quiz</h4>
+            <p>2019</p>
+          </div>
+          <div class="ach-card reveal">
+            <h4>Deloitte — Technology & Cyber Job Simulations</h4>
+            <p>Certification</p>
+          </div>
+          <div class="ach-card reveal">
+            <h4>Great Learning — C Language & HTML</h4>
+            <p>Certification</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="contact section container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form reveal" novalidate>
+            <label>
+              <span>Name</span>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+              <small class="error" data-for="name"></small>
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="you@example.com"
+                required
+              />
+              <small class="error" data-for="email"></small>
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write me a message"
+                required
+              ></textarea>
+              <small class="error" data-for="message"></small>
+            </label>
+
+            <div class="form-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <button type="reset" class="btn outline">Reset</button>
+            </div>
+          </form>
+
+          <div class="contact-details reveal">
+            <h3>Get in touch</h3>
+            <p>📍 Gwalior, India</p>
+            <p>📞 <a href="tel:+918349737671">+91 8349737671</a></p>
+            <p>
+              ✉️
+              <a href="mailto:Sonuprajapati83497@gmail.com"
+                >Sonuprajapati83497@gmail.com</a
+              >
+            </p>
+            <p>
+              <strong>LinkedIn:</strong><br />
+              <a
+                href="https://linkedin.com/in/sonu-prajapati-a75306301"
+                target="_blank"
+                >linkedin.com/in/sonu-prajapati-a75306301</a
+              >
+            </p>
+            <p>
+              <strong>GitHub:</strong><br />
+              <a href="https://github.com/Sonu83497" target="_blank"
+                >github.com/Sonu83497</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Sonu Prajapati. All rights reserved.</p>
+        <div class="footer-socials">
+          <a
+            href="https://linkedin.com/in/sonu-prajapati-a75306301"
+            target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/Sonu83497" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
